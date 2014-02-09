@@ -1,0 +1,238 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: futura, sans-serif;
+	color: #fff;
+	font-size: 62.5%;
+	/*1em now = 10px; 1.5em = 15px; etc.*/
+	background-color: #f58e69;
+}
+
+h1 {
+	margin: 0;
+}
+
+h3 {
+	color: #000;
+	font-size: 1.8em;
+	margin-bottom: 0;
+}
+
+p {
+	margin: 1em;
+}
+
+.contain {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 4.5em;
+	text-align: center;
+}
+
+#namesake {
+	height: 4em;
+	width: 9.4em;
+}
+
+#tagline {
+	margin-top: 0;
+	font-size: 2em;
+	font-style: italic;
+}
+
+
+
+#content-wrapper {
+	margin-top: 3em;
+}
+
+#sign-up {
+	font-size: 1.5em;
+	margin-top: 3em;
+}
+
+.retina-icons {
+	height: 3.5em;
+	width: 3.5em;
+	margin: 1em 1em 0 1em;
+}
+
+#mc_embed_signup input.email {
+line-height: 14px;
+border-radius: 17px;
+font-size: 1.3em;
+margin: 0 auto;
+width: 63%;
+text-align: center;
+}
+
+#mc_embed_signup {
+margin: 0 38% 0 38%;
+width: 400px;
+max-width: 960px;
+border-radius: 18px;
+}
+
+#mc_embed_signup input.button {
+	background-color: #f58e69;
+	border: 1px solid #fff;
+	font-size: 1.5em;
+}
+
+#mc_embed_signup input.button:hover {
+	background-color: #fff;
+	border: 1px solid grey;
+	font-size: 1.5em;
+	color: #f58e69;
+}
+
+#social-icons {
+	margin-bottom: 3em;
+}
+
+.riffle-icons {
+	height: 7.7em;
+	width: 7.7em;
+}
+
+#banner {
+	background-color: #fff;
+}
+
+#mid-body {
+	position: relative;
+	padding: 3em 0 3em 0;
+}
+
+section {
+	position: relative;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+footer {
+	height: 10em;
+}
+
+footer div {
+	margin: 0 auto;
+	margin-top: 3em;
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+div p {
+	font-size: 1.5em;
+}
+
+#bdw-icon {
+	height: 3.4em;
+	width: 9.9em;
+}
+
+#nvc-icon {
+	height: 4.1em;
+	width: 7.9em;
+}
+
+/* for high resolution display */
+
+@media screen and (min-width: 1170px) {
+
+	#namesake {
+		height: 5.2em;
+		width: 12.22em;
+	}
+
+	#tagline {
+		margin-top: 0;
+		font-size: 2.5em;
+		font-style: italic;
+	}
+
+	#logo {
+		height: 20em;
+		width: 20em;
+	}
+
+	#sign-up {
+		font-size: 1.85em;
+		margin-top: 3em;
+	}
+
+	.retina-icons {
+		height: 5em;
+		width: 5em;
+		margin: 1em 1em 0 1em;
+	}
+
+	.riffle-icons {
+		height: 7.7em;
+		width: 7.7em;
+	}
+}
+
+@media screen and (min-width: 1170px) {
+
+	section {
+		display: inline-block;
+		width: 33%;
+		margin-bottom: 0;
+	}
+
+	section h3 {
+		font-size: 1.8em;
+	}
+
+	.riffle-icons {
+		height: 7.7em;
+		width: 7.7em;
+	}
+
+	div p {
+		font-size: 2em;
+		margin-top: 0;
+	}
+
+	footer {
+		height: 12em;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1169px) {
+
+	section {
+		display: inline-block;
+		width: 33%;
+		margin-bottom: 0;
+	}
+
+	section h3 {
+		font-size: 1.5em;
+	}
+
+	.riffle-icons {
+		height: 5.5em;
+		width: 5.5em;
+	}
+
+	div p {
+		font-size: 1.5em;
+		margin-top: 0;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	section:last-of-type {
+		margin-bottom: 0;
+	}
+
+	div p {
+		font-size: 1.25em;
+		margin-top: 0;
+	}
+}
