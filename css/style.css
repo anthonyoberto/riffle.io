@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-	color: #000;
+	color: #aaa;
 	font-size: 1.8em;
 	margin-bottom: 0;
 }
@@ -63,7 +63,6 @@ p {
 	min-width: 250px;
 	padding: .5em 0 1em 0;
 	font: bold 16px futura, Arial, sans-serif;
-	border-radius: 17px;
 }
 
 #mc_embed_signup input.email {
@@ -78,7 +77,8 @@ p {
 	display: block;
 	font-size: 1em;
 	line-height: 20px;
-	border-radius: 17px;
+	border-radius: 7px;
+	/*border-radius: 17px;*/
 	padding: 5px;
 	width: 100%;
 	border: 1px solid #999;
@@ -102,7 +102,8 @@ p {
 	color: #fff;
 	cursor: pointer;
 	border: 0;
-	border-radius: 17px;
+	border-radius: 7px;
+	/*border-radius: 17px;*/
 	background: #999;
 	border: 1px solid #fff;
 	background-color: #f58e69;
@@ -116,7 +117,7 @@ p {
 }
 
  /*End MailChimp form */
-
+ 
 #social-icons {
 	margin-bottom: 3em;
 }
@@ -132,7 +133,7 @@ p {
 
 #mid-body {
 	position: relative;
-	padding: 3em 0 3em 0;
+	padding: 5em 0 5em 0;
 }
 
 section {
